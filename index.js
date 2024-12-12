@@ -26,4 +26,5 @@ let sumThree= firstNumber*lastNumber;
 let sumFour= firstNumber%lastNumber;
 
 let age= [20 ,23, 43, 54, 22, 26, 33, 28,35,39];
+let salary = [40000, 120000];
   console.log(age);
