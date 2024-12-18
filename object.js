@@ -12,7 +12,7 @@ person.nationality = "bangladeshi";
 person.firstName = "Mack"
 // data delete
 delete person.lastName;
-   
+    
 console.log(person)
 // dot notation
 // let userName = person.firstName
@@ -24,9 +24,9 @@ console.log(person)
 
 
 
-// let car = {
+// let car = { 
 //     name:'BMW',
-//     color : 'Yellow',
+//     color : 'Yellow', 
 //     model : {
 //         model1 :{
 //             price: 8000000 ,
