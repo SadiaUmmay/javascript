@@ -15,8 +15,8 @@ function fullName(firstName, lastName, age){
 const yourName= fullName('Ummay', "Jannat", 22)
 // console.log(yourName)
 
-function gold(showedAna){
-return 64 + ' ' + 'ana'+ ' ' +  '=' + ' ' + showedAna/16 + ' ' + 'vori';
+function gold(ana){
+return 64 + ' ' + 'ana'+ ' ' +  '=' + ' ' + ana/16 + ' ' + 'vori';
 }
 let output= gold(64)
 // console.log(output)
@@ -50,7 +50,7 @@ let add = (number1, number2) => number1 + number2;
 
 // IIFE
 (function (name){
-    console.log(name)
+    // console.log(name)
 })("alif");
 
 // let x =5;
@@ -60,4 +60,4 @@ let add = (number1, number2) => number1 + number2;
 
 let x = 5;
 x= x + 10;
-console.log(x);  
+// console.log(x);  
