@@ -33,20 +33,31 @@
 //     console.log('condition false')
 // };
 
-let amount= 5000;
-let price = 400;
-let travel = 1500;
-let shopping = 2600;
-let movie = 400;
-if(price <= 300 ){
-  console.log('kacchi khabo');
-}else if(travel < 1000){
-    console.log('travel korbo');
-}else if(shopping > 2000){
-    console.log('shopping korbo');
-}else if(movie < 500){
-    console.log('movie dekhbo')
+// let amount= 5000;
+// let price = 400;
+// let travel = 1500;
+// let shopping = 2600;
+// let movie = 400;
+// if(price <= 300 ){
+//   console.log('kacchi khabo');
+// }else if(travel < 1000){
+//     console.log('travel korbo');
+// }else if(shopping > 2000){
+//     console.log('shopping korbo');
+// }else if(movie < 500){
+//     console.log('movie dekhbo')
+// }
+// else{
+//     console.log('plan cancel')
+// };
+
+let book = 400;
+let pen = 10;
+if(book <= 500 ){
+    if(pen<20){
+        console.log('pen kinbo')
+    }
+  console.log('book kinbo');
+}else{
+    console.log('kichu kinbona')
 }
-else{
-    console.log('plan cancel')
-};
