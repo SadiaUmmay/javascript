@@ -31,22 +31,22 @@ switch(true){
     case(day == 1):
     console.log('saturday');
     break;
-    case(day ==2):
+    case(day == 2):
     console.log('sunday');
     break;
-    case(day ==3):
+    case(day == 3):
     console.log('monday');
     break;
-    case(day ==4):
+    case(day == 4):
     console.log('tuesday');
     break;
-    case(day ==5):
+    case(day == 5): 
     console.log('wednesday');
     break;
-    case(day ==6):
+    case(day == 6):
     console.log('thursday');
     break;
-    case(day ==7):
+    case(day == 7):
     console.log('Friday');
     break;
     default:
